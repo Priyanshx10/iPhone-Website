@@ -2,13 +2,13 @@ import { useGSAP } from "@gsap/react"
 import gsap from "gsap";
 import ModelView from "./ModelView";
 import { useEffect, useRef, useState } from "react";
-import { yellowImg } from "../assets/utils";
+import { yellowImg } from "../utils";
 
 import * as THREE from 'three';
 import { Canvas } from "@react-three/fiber";
 import { View } from "@react-three/drei";
-import { models, sizes } from "../assets/constants";
-import { animateWithGsapTimeline } from "../assets/utils/animation";
+import { models, sizes } from "../constants";
+import { animateWithGsapTimeline } from "../utils/animation";
 
 const Model = () => {
   const [size, setSize] = useState('small');
