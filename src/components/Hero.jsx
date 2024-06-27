@@ -1,6 +1,6 @@
 import gsap from "gsap"
 import { useGSAP } from "@gsap/react"
-import { heroVideo, smallHeroVideo} from '../assets/utils/index'
+import { heroVideo, smallHeroVideo} from '../utils/index'
 import { useEffect, useState } from "react"
 
 const Hero = () => {
