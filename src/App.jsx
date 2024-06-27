@@ -9,8 +9,6 @@ import { SpeedInsights } from '@vercel/speed-insights/react';
 
 import * as Sentry from '@sentry/react';
 
-
-
 const App = () => {
   return (
    <main >
